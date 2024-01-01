@@ -1,14 +1,15 @@
 # Flower Classification using Pytorch
-Classification for daisy and dandelion using Neural Network
 
-### Prerequisites
+This repository presents a flower classification project that distinguishes between daisy and dandelion flowers using a neural network implemented in PyTorch.
 
-Make sure you have the following installed before running the application:
+## Prerequisites
+
+Ensure you have the following installed before running the application:
 
 - Python (version 3.10 or higher)
 - pip (Python package installer)
 
-## Environment Setup 
+## Environment Setup
 
 1. Open a terminal and navigate to the project directory.
 
@@ -34,8 +35,7 @@ Make sure you have the following installed before running the application:
         source venv/bin/activate
         ```
 
-
-### 1. Installation Using Conda
+### Installation Using Conda
 
 If you prefer Conda for environment management:
 
@@ -46,19 +46,19 @@ conda create --name myenv python=3.10.11
 # Activate the conda environment
 conda activate myenv
 
-4. Install the required dependencies:
+# Additional Configuration (Important)
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Notebooks and Files
 
-## Additional Configuration (*Important*)
+1. **1_numpyarray_vs_tensor.ipynb**: Explore calculation speed for CPU and GPU with examples.
+2. **simple_neural_network.ipynb**: Train the PyTorch model with a custom dataset using a neural network.
+3. **Load_test_model.ipynb**: Test the trained model (.pt file) with an image or a directory containing images (test.jpg).
+4. **binary_classification_model.ipynb**: Access trained model weights using simple_neural_network.ipynb.
 
- 1. `1_numpyarray_vs_tensor.ipynb`: Calculation speed for CPU and GPU example.
- 2. `simple_neural_network.ipynb`: Train the pytorch model with custom dataset using Neural Network.
- 3. `Load_test_model.ipynb`: Test the trained model `.pt` file with image or directory having images `test.jpg`.
- 4. `binary_classification_model.ipynb`: Trained model weight using `simple_neural_network.ipynb` file.
- 5. `Flowers_Classification_dataset.zip`: Folders with images for `Train' `Test` `Validation`.
- 6. `requirements.txt`: All the required dependencies to execute the `2` and `3`.
+## Dataset and Files
 
+5. **Flowers_Classification_dataset.zip**: Obtain folders with images for Train, Test, and Validation.
 
+## Dependencies
+
+6. **requirements.txt**: View all required dependencies to execute notebooks 2 and 3.
