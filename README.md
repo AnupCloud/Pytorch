@@ -1,4 +1,6 @@
-# Additional Configuration (Important)
+# Flower Classification using Pytorch
+
+This repository presents a flower classification project that distinguishes between daisy and dandelion flowers using a neural network implemented in PyTorch.
 
 ## Notebooks and Files
 
@@ -14,3 +16,48 @@
 ## Dependencies
 
 6. **requirements.txt**: View all required dependencies to execute notebooks 2 and 3.
+
+
+## Prerequisites
+
+Ensure you have the following installed before running the application:
+
+- Python (version 3.10 or higher)
+- pip (Python package installer)
+
+## Environment Setup
+
+1. Open a terminal and navigate to the project directory.
+
+### Installation Using pip
+
+2. Create a virtual environment by running the following command:
+
+    ```bash
+    python -m venv venv
+    ```
+
+3. Activate the virtual environment:
+
+    - On Windows:
+
+        ```bash
+        .\venv\Scripts\activate
+        ```
+
+    - On Unix or MacOS:
+
+        ```bash
+        source venv/bin/activate
+        ```
+
+### Installation Using Conda
+
+If you prefer Conda for environment management:
+
+```bash
+# Create a conda environment named 'myenv'
+conda create --name myenv python=3.10.11
+
+# Activate the conda environment
+conda activate myenv
